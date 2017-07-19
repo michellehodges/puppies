@@ -20,7 +20,8 @@ body {
 body > div {
   background-color: white;
   border: 1px solid yellow;
-  padding: 25px;
+  margin: 20px 75px;
+  border-radius: 5px;
 }
 
 div > header {
@@ -49,10 +50,40 @@ header > a {
 }
 
 h2, h3 {
-  font-family: Helvetica, Arial, sans-serif;
   color: #1fabe5;
 }
 
-p, ul, tr {
+section, h2, h3, p, ul, tr {
   font-family: Helvetica, Arial, sans-serif;
+}
+
+li {
+  font-weight: bold;
+  margin: 10px;
+}
+
+#page_content {
+  padding: 20px;
+}
+
+section {
+  border-bottom: 4px solid #eee;
+  padding: 10px;
+}
+
+table, td {
+  border: 1px solid #046c97;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  display: inline-block;
+  /*box-sizing: border-box;*/
+}
+
+thead > tr > td {
+  background-color: #1fabe5;
+  color: white;
+  padding: 10px;
 }
